@@ -580,6 +580,9 @@ p {
 .footer-iconsvg {
   fill: #f4f4fd;
 }
+.footer-iconsvg-subscribe {
+  margin-left: 16px;
+}
 .subscription-form {
   display: flex;
   max-width: 453px;
@@ -618,6 +621,7 @@ p {
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: transparent;
+  padding: 16px;
 }
 .subscription-input::placeholder {
   color: var(--white);
