@@ -613,7 +613,7 @@ p {
 .subscription-input::placeholder {
   color: var(--white);
 }
-.subscribe-button {
+.subscribe-btn {
   background: #4d5ae5;
 
   font-family: "Roboto", sans-serif;
@@ -637,8 +637,8 @@ p {
   padding: 0;
   gap: 16px;
 }
-.subscribe-button:hover,
-.subscribe-button:focus {
+.subscribe-btn:hover,
+.subscribe-btn:focus {
   background: #404bbf;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
