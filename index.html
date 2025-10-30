@@ -482,28 +482,29 @@
             </li>
           </ul>
         </div>
-
-        <form class="subscription-form" name="subscription-email">
-          <label class="subscription-label">
-            Subscribe
-            <input
-              class="subscription-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
-          </label>
-          <button type="submit" class="subscribe-btn">
-            Subscribe
-            <svg class="footer-iconsvg" width="24" height="24">
-              <use href="./images/icons.svg#icon-paper-plane"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="subscribe-container container">
+          <p class="p-subscribe">Subscribe</p>
+          <form class="subscription-form" name="subscription-email">
+            <label class="subscription-label">
+              <input
+                class="subscription-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="subscribe-btn">
+              Subscribe
+              <svg class="footer-iconsvg" width="24" height="24">
+                <use href="./images/icons.svg#icon-paper-plane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- #region modal-->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="modal-close-button" type="button">
           <svg class="modal-icon-close" width="8" height="8">
