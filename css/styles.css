@@ -848,10 +848,13 @@ p {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form input[type="checkbox"]:checked + .modal-terms-checkbox {
+.modal-check-box:checked + .modal-terms-text > .modal-terms-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+.modal-check-box:focus + .modal-terms-text > .modal-terms-checkbox {
+  border-color: #404bbf;
 }
 
 .modal-send {
