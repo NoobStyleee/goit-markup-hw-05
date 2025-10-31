@@ -790,6 +790,8 @@ p {
   fill: var(--iris);
 }
 .modal-close-button {
+  width: 24px;
+  height: 24px;
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -808,6 +810,7 @@ p {
 .modal-close-button:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -833,10 +836,17 @@ p {
   color: var(--iris);
 }
 .modal-terms-checkbox {
+  width: 16px;
+  height: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-check-box:checked .modal-terms-checkbox {
   background-color: #404bbf;

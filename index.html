@@ -504,9 +504,9 @@
       </div>
     </footer>
     <!-- #region modal-->
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
-        <button class="modal-close-button" type="button" width="24" height="24">
+        <button class="modal-close-button" type="button">
           <svg class="modal-icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -515,7 +515,7 @@
         <p class="modal-parag">Leave your contacts and we will call you back</p>
         <form class="modal-form" name="modal-form">
           <div class="modal-hz">
-            <label class="modal-form-label" name="user-name"> Name </label>
+            <label class="modal-form-label" for="user-name"> Name </label>
             <div class="modal-icon-input">
               <input
                 class="modal-form-input icon-input"
@@ -556,8 +556,8 @@
             </div>
           </div>
           <div class="modal-last">
-            <label class="modal-form-label" name="user-comment">
-              Comment
+            <label class="modal-form-label" for="user-comment">
+              Comments
               <textarea
                 class="modal-form-textarea"
                 name="user-comment"
